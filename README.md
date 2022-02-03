@@ -1,6 +1,6 @@
 # Leer Linked Data
 
-Beknopte cursus Linked Data voor archivarissen.
+Beknopte cursus Linked Data voor medewerkers van het Stadsarchief Amsterdam.
 
 ## Voorbereiding
 ### GraphDB installeren
@@ -12,18 +12,10 @@ Setup -> Repositories -> Create New Repository
 1. Geef de repo een naam
 2. Vink aan: 'Supports SHACL validation'
 
-## Les 1: Data
-
+## Blok 1: Linked Data en SPARQL
 Zie [hier](Leer-Linked-Data-les1.md)
-
-## Les 2: SPARQL
-
 Zie [hier](Leer-Linked-Data-les2.md)
 
-## Les 3: Datastructuren
-
+## Blok 2: Datastructuren in OWL en SHACL
 Zie [hier](Leer-Linked-Data-les3.md)
-
-## Les 4: Recordtypes in Memorix
-
 Zie [hier](Leer-Linked-Data-les4.md)

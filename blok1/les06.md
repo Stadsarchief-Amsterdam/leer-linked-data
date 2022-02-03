@@ -13,3 +13,4 @@ Deze query zoekt naar dingen '?archief' die voldoen aan het patroon dat er een r
 
 Knip en plak deze query in GraphDB -> SPARQL .
 
+Ga naar [Les 07: Een query met twee variabelen](les07.md)

@@ -62,3 +62,4 @@ Hieronder is een complete beschrijving van een archief.
 
 Je ziet hier een heleboel _blanknodes_. Omdat deze geen naam hebben kan GraphDB ze niet visualiseren, en kun je ook niet rechtstreeks aan ze refereren. Maar ze zijn er wel. Er is nu dus een pad in de graaf van <https://id.archief.amsterdam/2> naar de begindatum van de vorming. Dit pad volgt deze relaties: rico:isAssociatedWith/rico:hasBeginningDate/rico:normalizedDateValue. 
 
+Ga naar [Les 06: Mijn eerste SPARQL-query](les06.md)

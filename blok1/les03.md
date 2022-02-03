@@ -23,3 +23,4 @@ Elk ding heeft hier een rdfs:label gekregen. Dat is handig omdat alle tools die 
 Lees ook de data over dit archief in, in GraphDB.
 ("Import" -> "RDF" -> "Import RDF Text Snippet")
 
+Ga naar [Les 04: Visualisatie in GraphDB](les04.md)

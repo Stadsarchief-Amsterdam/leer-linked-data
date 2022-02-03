@@ -1,4 +1,4 @@
-# Les 1: triples in een graaf
+# Les 1: Triples in een graaf
 
 Verbindingen in een netwerk van data (het wiskundige woord voor netwerk is 'graaf') leg je vast door aan te geven welke knoop met welke knoop is verbonden met welk relatie. In Linked Data worden deze combinaties van ```<knoop1> <relatie> <knoop2> ```  _triples_ genoemd. In Linked Data zijn alle knopen en relaties webadressen of beter Uniform Resource Identifiers (URI's). Je kunt je Linked Data dus opsommen door deze triples in URI's uit te drukken:
 
@@ -10,4 +10,10 @@ Verbindingen in een netwerk van data (het wiskundige woord voor netwerk is 'graa
 
 Het heeft dus altijd de structuur: ```<knoop1> <relatie> <knoop2> .``` Deze drie dingen van de triple heten respectievelijk: _subject_, _predicate_ (of _property_) en _object_.
 
-Laad dit voorbeeld in GraphDB. Kies "Import" -> "RDF" -> "Import RDF Text Snippet" . Knip en plak bovenstaande voorbeeld daar in.
+Laad dit voorbeeld in GraphDB. 
+* Kies "Import" -> "RDF" -> "Import RDF Text Snippet" . 
+* Knip en plak bovenstaande voorbeeld daar in 
+* Kies als format "N-Triples" en klik op import.
+* De import settings kun je zo laten als ze standaard zijn. Dus klik nog een keer op 'Import'.
+
+Ga naar [Les 02: Turtle en andere serializaties](les02.md)

@@ -11,3 +11,5 @@ SELECT * WHERE {
 ```
 
 Knip en plak deze query in GraphDB -> SPARQL .
+
+Ga naar [Les 09: Een query met een FILTER](les09.md)

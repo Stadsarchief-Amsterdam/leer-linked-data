@@ -5,3 +5,4 @@ Kies Explore -> Graphs overview. Je ziet nu een overzicht van alle grafen die je
 
 Kies Explore -> Visual Graph. Je kunt nu een URI van een knoop invoeren, we kiezen ```https://id.archief.amsterdam/2```. Je ziet nu een visuele weergave van je graaf.
 
+Ga naar [Les 05: Blanknodes - nodes in het netwerk zonder naam](les05.md)

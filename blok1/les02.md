@@ -21,3 +21,5 @@ Echt leesbaar voor mensen wordt het als je webadressen afkort met een _namespace
 ```
 
 N-triples en Turtle drukken allebei dus op een andere manier dezelfde triples uit. Het zijn, in jargon, verschillende _serializaties_ van dezelfde RDF.
+
+Ga naar [Les 03: Een RiC-O voorbeeld in turtle](les03.md)

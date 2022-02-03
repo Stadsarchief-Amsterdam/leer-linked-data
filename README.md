@@ -1,6 +1,6 @@
 # Leer Linked Data
 
-Beknopte cursus Linked Data voor medewerkers van het Stadsarchief Amsterdam.
+Beknopte (twee blokken van twee uur) cursus Linked Data voor medewerkers van het Stadsarchief Amsterdam.
 
 ## Voorbereiding
 ### GraphDB installeren
@@ -25,7 +25,7 @@ Setup -> Repositories -> Create New Repository
 * [Les 09: Een query met een FILTER](blok1/les09.md)
 * [Les 10: Een query met een patroon dat OPTIONAL is](blok1/les10.md)
 
-Meer leren? [DuCharme, Bob, Learning SPARQL, O'Reilly 2013](https://www.oreilly.com/library/view/learning-sparql-2nd/9781449371449/)
+Meer SPARQL leren? [SPARQL oefeningen](../sparql-oefeningen/README.md)
 
 ## Blok 2: Datastructuren in OWL en SHACL
 Zie [hier](Leer-Linked-Data-les3.md)

@@ -1,12 +1,12 @@
 # Les 5: Blanknodes - nodes in het netwerk zonder naam
-Hieronder is een complete beschrijving van een archief.
+Hieronder is een nog completere beschrijving van een archief. Loop het even rustig langs om te kijken of je begrijpt wat er is vastgelegd.
 
 ```
 @prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rico:          <https://www.ica.org/standards/RiC/ontology#> .
 @prefix ric-rst:       <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#> .
-@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
 
 <https://id.archief.amsterdam/4> 
 	rdf:type rico:RecordSet ;
@@ -60,6 +60,10 @@ Hieronder is een complete beschrijving van een archief.
 
 ```
 
-Je ziet hier een heleboel _blanknodes_. Omdat deze geen naam hebben kan GraphDB ze niet visualiseren, en kun je ook niet rechtstreeks aan ze refereren. Maar ze zijn er wel. Er is nu dus een pad in de graaf van <https://id.archief.amsterdam/2> naar de begindatum van de vorming. Dit pad volgt deze relaties: rico:isAssociatedWith/rico:hasBeginningDate/rico:normalizedDateValue. 
+Je ziet hier een heleboel _blanknodes_. Omdat deze geen naam hebben kan GraphDB ze niet visualiseren, en kun je ook niet rechtstreeks aan ze refereren. Maar ze zijn er wel. Er is nu dus een pad in de graaf van <https://id.archief.amsterdam/4> naar de begindatum van de vorming. Dit pad volgt deze relaties: rico:isAssociatedWith/rico:hasBeginningDate/rico:normalizedDateValue. 
+
+Voeg deze triples toe aan de repository in GraphDB ("Import" -> "RDF" -> "Import RDF Text Snippet")
+
+Wat is de begindatum van de archiefvorming?
 
 Ga naar [Les 06: Mijn eerste SPARQL-query](les06.md)

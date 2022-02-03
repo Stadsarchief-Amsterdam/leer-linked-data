@@ -1,46 +1,18 @@
 # Les 10: Een query met een patroon dat OPTIONAL is
-Voeg toe aan de graaf ("Import" -> "RDF" -> "Import RDF Text Snippet"):
+Stel je wilt wel alle archieven en alleen de begindatum van vorming als deze ook in de graaf is opgenomen. Als hij niet in de graaf is opgenomen, mag de waarde in kolom wegblijven.
 
-```
-<https://id.archief.amsterdam/8> 
-	rdf:type rico:RecordSet ;
-    rico:isAssociatedWithDate [
-        a rico:DateRange ;
-        rico:expressedDate "1572 - 1798" ;
-        rico:hasBeginningDate [
-            a rico:SingleDate ;
-            rico:normalizedDateValue "1572"^^xsd:gYear
-        ] ;
-        rico:hasEndDate [
-            a rico:SingleDate ;
-            rico:normalizedDateValue "1798"^^xsd:gYear
-        ]
-    ] .
-
-```
-
-en voer dezelfde query opnieuw uit:
+Daarvoor gebruik je het woord OPTIONAL.
 
 ```
 SELECT * WHERE {
-     ?rs 	rico:hasRecordSetType ?rst ;
-     		rico:isAssociatedWithDate/rico:hasBeginningDate/rico:normalizedDateValue ?begindate .
-     FILTER (?begindate < '1600'^^xsd:gYear)
+     ?rs    rico:hasRecordSetType ?rst .
+     OPTIONAL {
+        ?rs	rico:isAssociatedWithDate/rico:hasBeginningDate/rico:normalizedDateValue ?begindate .
+     }
 }
 
 ```
 
-Waarom komt de nieuwe archiefbeschrijving nu niet als resultaat uit de query? Hint: heeft deze beschrijving een rico:hasRecordSetType property?
+Knip en plak deze query in GraphDB -> SPARQL. Deze query geeft drie kolommen, waarvan de ?begindate op twee plaatsen leeg is.
 
-Deze query doet het beter:
-
-```
-SELECT * WHERE {
-     ?rs	rico:isAssociatedWithDate/rico:hasBeginningDate/rico:normalizedDateValue ?begindate .
-     OPTIONAL { ?rs 	rico:hasRecordSetType ?rst ; }
-     FILTER (?begindate < '1600'^^xsd:gYear)
-}
-
-```
-
-
+Einde blok 1

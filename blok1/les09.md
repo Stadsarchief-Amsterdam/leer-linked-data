@@ -11,6 +11,6 @@ SELECT * WHERE {
 
 ```
 
-Knip en plak deze query in GraphDB -> SPARQL.
+Knip en plak deze query in GraphDB -> SPARQL. Als het goed is geeft de query nu geen enkel resultaat.
 
 Ga naar [Les 10: Een query met een patroon dat OPTIONAL is](les10.md)

@@ -9,6 +9,6 @@ SELECT * WHERE {
 
 ```
 
-Knip en plak deze query in GraphDB -> SPARQL .
+Knip en plak deze query in GraphDB -> SPARQL. In het antwoord zie je nu twee kolommen: voor elke kolom een. 
 
 Ga naar [Les 08: Een query met een pad](les08.md)

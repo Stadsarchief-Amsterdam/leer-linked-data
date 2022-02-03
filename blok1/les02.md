@@ -1,7 +1,7 @@
 # Les 2: turtle en andere serializaties
 De manier om triples uit te drukken zoals we in les 1 zagen wordt _n-triples_ genoemd. Overzichtelijker wordt het als je triples uitdrukt in _turtle_.
 
-
+In de onderstaande voorbeelden zijn dezelfde triples uitgedrukt als in het voorbeeld in n-triples van les 1.
 ```
 <https://id.archief.amsterdam/1> 
 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> ;

@@ -9,7 +9,7 @@ SELECT ?archief WHERE {
 
 ```
 
-Deze query zoekt naar dingen '?archief' die voldoen aan het patroon dat er een relaties is met rdf:type naar rico:RecordSet *en* met rico:hasRecordSetType naar ric-rst:Fonds. De uitkomst geeft een lijst terug van URI's waarvan in de graaf is aangegeven dat het een rico:RecordSet is en dat het met de property rico:hasRecordSetType aan ric-rst:Fonds is gekoppeld.
+Deze query zoekt naar dingen '?archief' die voldoen aan het patroon dat er een relatie is met rdf:type naar rico:RecordSet *en* met rico:hasRecordSetType naar ric-rst:Fonds. De uitkomst geeft een lijst terug van URI's waarvan in de graaf is aangegeven dat het een rico:RecordSet is en dat het met de property rico:hasRecordSetType aan ric-rst:Fonds is gekoppeld.
 
 Knip en plak deze query in GraphDB -> SPARQL .
 

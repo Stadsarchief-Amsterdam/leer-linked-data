@@ -46,7 +46,7 @@ Hieronder is een nog completere beschrijving van een archief. Loop het even rust
     rico:scopeAndContent "blabla" .
 
 <https://id.archief.amsterdam/5>
-	a rico:Organization ;
+	a rico:CorporateBody ;
 	rdfs:label "Een Of Ander Instituut" .
 
 <https://id.archief.amsterdam/6>
@@ -54,7 +54,7 @@ Hieronder is een nog completere beschrijving van een archief. Loop het even rust
 	rdfs:label "Toegangsnummer" .
 
 <https://id.archief.amsterdam/7>
-	a rico:Organization ;
+	a rico:CorporateBody ;
 	rdfs:label "Stadsarchief Amsterdam" .
 
 

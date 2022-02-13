@@ -20,6 +20,4 @@ ex:Mitton ex:playsIn ex:AHBC .
 Lees de data in, in GraphDB.
 ("Import" -> "RDF" -> "Import RDF Text Snippet")
 
-Opdracht: leg uit wat we hier hebben vastgelegd. Kun je nog meer semantiek bedenken die we niet gecodeerd hebben? Wat is ex:AHBC voor club?
-
 Ga naar: [Les 03: De eerste _inference_](les03.md)

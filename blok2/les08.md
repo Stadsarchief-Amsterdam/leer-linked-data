@@ -26,9 +26,11 @@ saa:Fonds a sh:NodeShape ;
     ] .
 ```
 
-Opdracht: importeer deze nieuwe NodeShape. Dus: "Import" -> "RDF" -> "Import RDF Text Snippet" . Kies bij het importeren als naam voor de graaf: http://rdf4j.org/schema/rdf4j#SHACLShapeGraph. Vink aan: "Enable replacement of existing data". Merk op dat na het importeren de oude data niet meer wordt gevalideerd. Dat gebeurt in GraphDB blijkbaar alleen bij het inlezen.
+Importeer deze nieuwe NodeShape. Dus: "Import" -> "RDF" -> "Import RDF Text Snippet" . Kies bij het importeren als naam voor de graaf: http://rdf4j.org/schema/rdf4j#SHACLShapeGraph. Merk op dat na het importeren de oude data wordt gevalideerd. Dus deze nieuwe SHACL file toevoegen werkt niet.
 
-Opdracht: er is een punt waarop onderstaande voorbeeld niet zal valideren tegen de NodeShape die we hierboven hebben gedefinieerd. Welk punt is dat?
+Importeer vervolgens onderstaande data:
+("Import" -> "RDF" -> "Import RDF Text Snippet")
+
 
 ```
 @prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -48,25 +50,6 @@ Opdracht: er is een punt waarop onderstaande voorbeeld niet zal valideren tegen 
     rico:hasRecordSetType ric-rst:Fonds .
 ```
 
-Antwoord:
-```
-@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
-@prefix rico:          <https://www.ica.org/standards/RiC/ontology#> .
-@prefix ric-rst:       <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#> .
-
-<https://id.archief.amsterdam/8>
-    rdf:type rico:RecordSet ;
-    rdfs:label "Het Archief van het Weeshuis" ;
-    rico:hasAccumulator [
-        rdf:type rico:Agent ;
-        rdfs:label "Het Weeshuis" ;
-        ] ;
-    rico:beginningDate "1673-02-28"^^xsd:date ;
-    rico:hasRecordSetType ric-rst:Fonds .
-```
-
-Dit lossen we op door de inference aan te zetten op basis van de RiC-Ontology. In dat geval rekent GraphDB eerst uit dat het Weeshuis een rico:Agent is omdat ```rico:CorporateBody owl:subClassOf rico:Group . rico:Group owl:subClassOf rico:Agent .```. 
+Opvallend: we hebben in de SHACL file gezegd, dat een archiefvormer een 'rico:Agent' moet zijn. Maar in deze data staat dat de archiefvormer een rico:CorporateBody is. Dit komt door de inference die we hebben aangezet op basis van de RiC-Ontology. GraphDB rekent eerst uit dat het Weeshuis een rico:Agent is omdat ```rico:CorporateBody owl:subClassOf rico:Group . rico:Group owl:subClassOf rico:Agent .```. 
 
 Ga naar [Les 09: Specifieke properties voor het SAA](les09.md)

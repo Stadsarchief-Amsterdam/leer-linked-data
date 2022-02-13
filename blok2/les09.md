@@ -11,9 +11,8 @@ Daarom definieren we onze eigen Classes, die we 'ophangen' in de RiC-O ontologie
 @prefix rico:          <https://www.ica.org/standards/RiC/ontology#> .
 @prefix saa:           <https://id.archief.amsterdam/recordtypes/> .
 
-saa:Fonds a sh:NodeShape , rdf:Class ;
+saa:Fonds a sh:NodeShape ;
     sh:targetClass saa:Fonds ;
-    rdfs:subClassOf rico:RecordSet ;
     rdfs:label "Archiefblok" ;
     sh:property [
         sh:path rico:hasAccumulator ;
@@ -47,7 +46,7 @@ We moeten dan wel ons eigen ding de rdf:type saa:Fonds meegeven:
     rdf:type saa:Fonds ;
     rdfs:label "Het Archief van het Weeshuis" ;
     rico:hasAccumulator [
-        rdf:type rico:Agent ;
+        rdf:type rico:CorporateBody ;
         rdfs:label "Het Weeshuis" ;
         ] ;
     rico:beginningDate "1673-02-28"^^xsd:date ;

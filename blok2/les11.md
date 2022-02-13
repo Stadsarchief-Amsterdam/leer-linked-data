@@ -25,7 +25,6 @@ blauwdruk:VeldenGroep a sh:PropertyGroup ;
 
 blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # <======
     sh:targetClass saa:Fonds ;
-    rdfs:subClassOf rico:RecordSet ;
     rdfs:label "Archiefblok" ;
     dc:identifier "Fonds" ;                                                   # <======
     sh:ignoredProperties ( rdf:type ) ;                                       # <======

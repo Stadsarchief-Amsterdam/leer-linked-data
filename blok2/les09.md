@@ -3,6 +3,8 @@ Bij het Stadsarchief Amsterdam stellen we andere eisen aan verschillende RecordS
 
 Daarom definieren we onze eigen Classes, die we 'ophangen' in de RiC-O ontologie. We kunnen dan gebruik maken van de mogelijkheden die de ontologie ons biedt en onze eigen eisen stellen aan onze eigen data. Dat doen we in onze eigen ontologie.
 
+We kunnen onderstaande dingen uitproberen nadat we eerst weer de SHACL graaf en default graaf hebben leeggooid. Dat mag je een keer zelf proberen.
+
 ```
 @prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
@@ -50,7 +52,8 @@ We moeten dan wel ons eigen ding de rdf:type saa:Fonds meegeven:
         rdfs:label "Het Weeshuis" ;
         ] ;
     rico:beginningDate "1673-02-28"^^xsd:date ;
-    rico:hasRecordSetType ric-rst:Fonds .
+    rico:hasRecordSetType ric-rst:Fonds ;
+    saa:internalRemarks "Wat een onzin archief!" .
 ```
 
 Ga naar [Les 10: SHACL als formulierdefinitie](les10.md)

@@ -28,9 +28,10 @@ saa:Fonds a sh:NodeShape ;
 
 Importeer deze nieuwe NodeShape. Dus: "Import" -> "RDF" -> "Import RDF Text Snippet" . Kies bij het importeren als naam voor de graaf: http://rdf4j.org/schema/rdf4j#SHACLShapeGraph. Merk op dat na het importeren de oude data wordt gevalideerd. Dus deze nieuwe SHACL file toevoegen werkt niet.
 
-Importeer vervolgens onderstaande data:
-("Import" -> "RDF" -> "Import RDF Text Snippet")
+Daarom gooien we eerst alle data en SHAPEs weg uit de repo. Ga naar "Explore" -> "Graphs Overview" en klik op de prullen bvakjes van de SHACL-graaf en de default-graaf.
 
+Importeer daarna opnieuw bovenstaande SHAPEs (als graaf met de naam: http://rdf4j.org/schema/rdf4j#SHACLShapeGraph) en onderstaande data (in de default graph):
+("Import" -> "RDF" -> "Import RDF Text Snippet")
 
 ```
 @prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

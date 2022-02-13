@@ -17,13 +17,14 @@ Dus:
 @prefix dash:          <http://datashapes.org/dash#> .                        # <======
 @prefix memorix:       <http://memorix.io/ontology#> .                        # <======
 @prefix rico:          <https://www.ica.org/standards/RiC/ontology#> .
-@prefix fonds:         </resources/recordtypes/> .                            # <======
+@prefix rt:            </resources/recordtypes/> .                            # <======
+@prefix fonds:         </resources/recordtypes/Fonds#> .                      # <======
 
-blauwdruk:VeldenGroep a sh:PropertyGroup ;
+fonds:VeldenGroep a sh:PropertyGroup ;
     rdfs:label "Groepering van de velden"@nl ;
     sh:order 1.0 .
 
-blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # <======
+rt:Fonds a sh:NodeShape , memorix:Recordtype;                                 # <======
     sh:targetClass saa:Fonds ;
     rdfs:label "Archiefblok" ;
     dc:identifier "Fonds" ;                                                   # <======
@@ -36,7 +37,7 @@ blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # 
         memorix:inTitleAt 1.0 ;                                               # <======
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:group blauwdruk:VeldenGroep ;
+        sh:group fonds:VeldenGroep ;
         sh:order 1.0
     ] ;
     sh:property [
@@ -46,7 +47,7 @@ blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # 
         memorix:inTitleAt 2.0 ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:group blauwdruk:VeldenGroep ;
+        sh:group fonds:VeldenGroep ;
         sh:order 2.0
     ] ;
     sh:property [
@@ -56,7 +57,7 @@ blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # 
         memorix:inSummaryAt 1.0 ;                                             # <======
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:group blauwdruk:VeldenGroep ;
+        sh:group fonds:VeldenGroep ;
         sh:order 3.0
     ] .
 ```

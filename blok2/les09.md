@@ -1,4 +1,4 @@
-### Les 9: Specifieke properties voor het SAA
+# Les 9: Specifieke properties voor het SAA
 Bij het Stadsarchief Amsterdam stellen we andere eisen aan verschillende RecordSet (bijvoorbeeld: archiefvormer verplicht bij :Archiefblok, maar niet bij :Groep) of een Record (we willen een vervaardiger bij :Afbeelding, maar niet bij :Akte). Voor elke entiteit in de Blauwdruk hebben we daarom een eigen shape gedefinieerd.
 
 Daarom definieren we onze eigen Classes, die we 'ophangen' in de RiC-O ontologie. We kunnen dan gebruik maken van de mogelijkheden die de ontologie ons biedt en onze eigen eisen stellen aan onze eigen data. Dat doen we in onze eigen ontologie.

@@ -1,4 +1,4 @@
-### Les 7: Data valideren
+# Les 7: Data valideren
 Als het goed is, gaat het nu mis als je onderstaande data wilt invoeren:
 ("Import" -> "RDF" -> "Import RDF Text Snippet")
 

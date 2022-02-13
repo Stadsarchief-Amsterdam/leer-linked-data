@@ -1,4 +1,4 @@
-### Les 6: Onze eerste Shapes
+# Les 6: Onze eerste Shapes
 Een ontologie verschilt van een datamodel in dat er in een ontologie (en daarmee volgens de principes van Linked Data) geen verplichtingen zijn over welke properties er wel of niet zijn. Deze vrijheid die Linked Data biedt is niet altijd handig. Soms moet je gewoon zeker weten dat er een plaats in het depot is vastgelegd bijvoorbeeld. En ook kunnen controleren dat dit verplichte veld is ingevuld. Daarvoor gebruiken we SHACL (Shapes Constraint Language). Bij het Stadsarchief Amsterdam stellen we bijvoorbeeld als randvoorwaarde (_constraint_) dat bij een Archiefblok precies 1 archiefvormer moet worden vastgelegd. In SHACL leggen we dat als volgt vast:
 
 ```

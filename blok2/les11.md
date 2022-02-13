@@ -12,36 +12,36 @@ Dus:
 @prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:           <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
-@prefix dc:            <http://purl.org/dc/elements/1.1/> .					# <======
+@prefix dc:            <http://purl.org/dc/elements/1.1/> .                   # <======
 @prefix sh:            <http://www.w3.org/ns/shacl#> .
-@prefix dash:          <http://datashapes.org/dash#> .						# <======
-@prefix memorix:       <http://memorix.io/ontology#> .						# <======
+@prefix dash:          <http://datashapes.org/dash#> .                        # <======
+@prefix memorix:       <http://memorix.io/ontology#> .                        # <======
 @prefix rico:          <https://www.ica.org/standards/RiC/ontology#> .
-@prefix fonds:         </resources/recordtypes/> .							# <======
+@prefix fonds:         </resources/recordtypes/> .                            # <======
 
 blauwdruk:VeldenGroep a sh:PropertyGroup ;
-	rdfs:label "Groepering van de velden"@nl ;
+    rdfs:label "Groepering van de velden"@nl ;
     sh:order 1.0 .
 
-blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;		            # <======
+blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;                      # <======
     sh:targetClass saa:Fonds ;
     rdfs:subClassOf rico:RecordSet ;
     rdfs:label "Archiefblok" ;
-    dc:identifier "Fonds" ;	    											# <======
-    sh:ignoredProperties ( rdf:type ) ;										# <======
-    sh:closed true ;														# <======
+    dc:identifier "Fonds" ;                                                   # <======
+    sh:ignoredProperties ( rdf:type ) ;                                       # <======
+    sh:closed true ;                                                          # <======
     sh:property [
-    	rdfs:label "Archiefnummer"@nl , "Number of the Fonds"@en ;
+        rdfs:label "Archiefnummer"@nl , "Number of the Fonds"@en ;
         sh:path rico:identifier ;
         sh:datatype xsd:integer ;
-        memorix:inTitleAt 1.0 ;                                             # <======
+        memorix:inTitleAt 1.0 ;                                               # <======
         sh:minCount 1 ;
         sh:maxCount 1 ;
         sh:group blauwdruk:VeldenGroep ;
         sh:order 1.0
     ] ;
     sh:property [
-    	rdfs:label "Beschrijving"@nl , "Title"@en ;
+        rdfs:label "Beschrijving"@nl , "Title"@en ;
         sh:path rico:title ;
         sh:datatype xsd:string ;
         memorix:inTitleAt 2.0 ;
@@ -51,10 +51,10 @@ blauwdruk:Blablabla a sh:NodeShape , memorix:Recordtype;		            # <======
         sh:order 2.0
     ] ;
     sh:property [
-    	rdfs:label "Begindatum archiefvorming"@nl , "Beginning date Accumulation"@en ;
+        rdfs:label "Begindatum archiefvorming"@nl , "Beginning date Accumulation"@en ;
         sh:path rico:beginningDate ;
         sh:datatype xsd:date ;
-        memorix:inSummaryAt 1.0 ;                                           # <======
+        memorix:inSummaryAt 1.0 ;                                             # <======
         sh:minCount 1 ;
         sh:maxCount 1 ;
         sh:group blauwdruk:VeldenGroep ;

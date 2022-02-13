@@ -1,4 +1,4 @@
-### Les 8: Controleren op datatype en rdf:Class
+# Les 8: Controleren op datatype en rdf:Class
 De _inference_ die we hebben leren kennen in de les over ontologieen werkt natuurlijk pas goed als de data correct is. En een foutje is zo gemaakt. Daarom is het handig om bij zoveel mogelijk data aan te geven welke rdfs:Class de entiteit heeft. SHACL kan voor je controleren of je daarin geen fouten gemaakt hebt. Als er geen sprake is van een entiteit die is gekoppeld, kun je ook het datatype vastleggen.
 
 ```

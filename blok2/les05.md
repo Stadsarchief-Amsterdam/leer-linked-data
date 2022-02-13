@@ -26,9 +26,6 @@ SELECT ?s WHERE {
 }
 ```
 
-Kijk ook: [Extra les ontologie: bekijk Records in Contexts](extra-les-ontologie.md)
-Ga naar: [Les 06: Onze eerste Shapes](les06.md)
-
 ### Compleet voorbeeld
 
 ```
@@ -59,3 +56,7 @@ ex:Mitton ex:playsIn ex:AHBC .
 ex:Ajax a ex:FootballTeam .
 ex:AHBC a ex:HockeyTeam .
 ```
+
+Kijk ook: [Extra les ontologie: bekijk Records in Contexts](extra-les-ontologie.md)
+
+Ga naar: [Les 06: Onze eerste Shapes](les06.md)

@@ -1,31 +1,3 @@
-# Opdrachten bij DuCharme hoofdstuk 1.
-TODO: alleen volledige triples in de resultaten. Geen punt-komma gebruiken.
-
-## Opdracht 1: 
-Bij de de Koninklijke Bibliotheek beheren ze de Nederlandse Bibliografische Catalogus. Deze dataset is met SPARQL te bevragen op dit endpoint: http://data.bibliotheken.nl/sparql. In de dataset zijn publicaties met behulp van properties uit Schema.org gemodelleerd. Zo kan bij een boek, indien beschikbaar, een ISBN nummer zijn opgeslagen met de property http://schema.org/isbn en de titel van het boek met de property http://schema.org/name .
-
-1.1. Wat is de URI van het boek met het ISBN-nummer "9789023476825"?
-1.2. Wat is de titel van dit boek?
-
-Antwoord: [yasgui-link]
-```
-PREFIX schema: <http://schema.org/>
-
-SELECT * WHERE {
-  ?boek schema:isbn "9789023476825" ;
-      schema:name ?titel .
-}
-```
-1.3. Welke informatie is nog meer over dit boek vastgelegd?
-
-```
-PREFIX schema: <http://schema.org/>
-
-SELECT * WHERE {
-  ?boek schema:isbn "9789023476825" ;
-      ?property ?object .
-}
-```
 
 ## Opdracht 2: FILTER/regex
 Ook de Bibliotheque National de France heeft een SPARQL-endpoint voor het beschikbaar stellen van de catalogusinformatie (https://data.bnf.fr/sparql). Zou daar ook een exemplaar van Mulisch' Stenen Bruidsbed zijn te vinden? Ze gebruiken in Frankrijk Dublin Core Terms in plaats van Schema.org. De titel van het boek is daarom gekoppeld met de property <http://purl.org/dc/terms/title>. Voor de plaats van uitgave hebben ze een property uit een andere ontologie gekozen: <http://rdaregistry.info/Elements/m/P30088>.

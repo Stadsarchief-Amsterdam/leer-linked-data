@@ -10,7 +10,9 @@ Volgt de opbouw van dit boek:
 ## Gebruik YASGUI
 Je kunt op yasgui.org een SPARQL-query maken, aangeven naar welk endpoint je het wilt sturen en deze vervolgens uitvoeren.
 
-uitleg hoe.
+Bijvoorbeeld:
+https://api.triplydb.com/s/yLqXmahhD
+
 
 ## Inhoud
 Opdrachten bij DuCharme hoofdstuk 1.

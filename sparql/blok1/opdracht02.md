@@ -6,7 +6,7 @@ Schrijf een query waarmee de boeken worden gevonden die zijn uitgegeven door "De
 
 Spieken in het leerboek? Zie voorbeeld ex013.rq.
 
-Antwoord: [yasgui-link](https://api.triplydb.com/s/Yx_9iyXqS)
+Antwoord: [yasgui-link](https://api.triplydb.com/s/zZUnCvWmE)
 
 ## 2.2 
 Bereid de query uit zodat alleen boeken worden weergegeven met het woord "bruidsbed" in de titel.

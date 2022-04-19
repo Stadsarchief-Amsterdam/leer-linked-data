@@ -4,21 +4,21 @@ Ook de Bibliotheque National de France heeft een SPARQL-endpoint voor het beschi
 ## 2.1 
 Schrijf een query waarmee de boeken worden gevonden die zijn uitgegeven door "De Bezige bij" (Neem deze spelling met hoofdletters precies over!). Geef in het resultaat de URI van het boek en de titel.
 
-Spieken in het leerboek? Zie voorbeeld ex013.rq.
+Bekijk het voorbeeld in het boek: ex013.rq.
 
 Antwoord: [yasgui-link](https://api.triplydb.com/s/zZUnCvWmE)
 
 ## 2.2 
-Bereid de query uit zodat alleen boeken worden weergegeven met het woord "bruidsbed" in de titel.
+Breid de query uit zodat alleen boeken worden weergegeven met het woord "bruidsbed" in de titel.
 
-Spieken in het leerboek? Zie voorbeeld ex021.rq.
+Bekijk het voorbeeld in het boek: ex021.rq.
 
 Antwoord: [yasgui-link](https://api.triplydb.com/s/q7JAIQh_n)
 
 ## 2.3. 
 Kun je ook een query maken die je een overzicht geeft van de data die over een van de twee resultaten beschikbaar is?
 
-Spieken in het leerboek? Zie voorbeeld ex010.rq.
+Bekijk het voorbeeld in het boek: ex010.rq.
 
 Antwoord: [yasgui-link](https://api.triplydb.com/s/vLITihRww)
 

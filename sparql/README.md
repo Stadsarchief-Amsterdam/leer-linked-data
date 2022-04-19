@@ -16,19 +16,35 @@ Je kunt op yasgui.org een SPARQL-query maken, aangeven naar welk endpoint je het
 Bijvoorbeeld:
 https://api.triplydb.com/s/yLqXmahhD
 
-
 ## Inhoud Blok 1
+Bestudeer: hoofdstuk 1
 Opdrachten bij DuCharme hoofdstuk 1.
 Bij deze opdrachten maken we gebruik van SPARQL endpoints van
-- [Koninklijke Bibliotheek](http://data.bibliotheken.nl/sparql)
-- [Bibliotheque National de France](https://data.bnf.fr/sparql)
-- [British Library](https://bnb.data.bl.uk/sparql)
+- [Koninklijke Bibliotheek](http://data.bibliotheken.nl/sparql) (Den Haag)
+- [Bibliotheque National de France](https://data.bnf.fr/sparql) (Parijs)
+- [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
+
+Onderwerpen: basisquery, FILTER/REGEX, OPTIONAL
 
 ## Inhoud Blok 2
-Nog nader uit te werken. Opdrachten bij DuCharme hoofdstuk 3.
-Ideeen voor sparql endpoints:
-- [Getty](http://vocab.getty.edu/sparql.rdf)
-- [DBPedia](https://dbpedia.org/sparql)
-- [Muziekschatten](http://data.muziekschatten.nl/sparql)
+Bestudeer: pp. 47-69
+Opdrachten bij DuCharme hoofdstuk 3, pp. 47-69
+Bij deze opdrachten maken we gebruik van SPARQL endpoints van
+- [Koninklijke Bibliotheek](http://data.bibliotheken.nl/sparql) (Den Haag)
+- [DBPedia](https://dbpedia.org/sparql) 
+- [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
 
-[Meer endpoints](https://www.wikidata.org/wiki/Wikidata:Lists/SPARQL_endpoints)
+Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen (ex070.rq), gebruik van + in pad (ex078.rq, zoeken in AAT/Getty)
+
+## Inhoud blok 3
+Bestudeer: pp 69-89
+Opdrachten bij DuCharme hoofdstuk 3, pp. 69-89
+
+Onderwerpen (onder voorbehoud): DISTINCT (ex094.rq) UNION (ex103.rq), FILTER (ex105.rq), AS (ex139.rq)
+
+## Inhoud blok 4
+Bestudeer: pp 89-108
+Opdrachten bij DuCharme hoofdstuk 3, pp. 89-108
+
+Onderwerpen (onder voorbehoud): ORDER BY (ex146.rq), COUNT (ex162.rq), SERVICE (ex172.rq)
+

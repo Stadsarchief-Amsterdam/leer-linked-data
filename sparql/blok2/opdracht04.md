@@ -14,7 +14,7 @@ Antwoord: [yasgui-link](https://api.triplydb.com/s/rtwUfTapJ)
 # 4.2
 In nette Linked Data heeft elke resource een property waarmee een "label" is gekoppeld, zodat je altijd een voor mensen leesbaar stukje tekst kunt opvragen om weer te geven. Deze property is rdfs:label. Breid de query uit zodat de label ook wordt opgehaald. 
 
-Bekijk het voorbeeld in het boek:  ex048.rq.
+Bekijk het voorbeeld in het boek: ex048.rq.
 
 Antwoord: [yasgui](https://api.triplydb.com/s/7iWXYG43q)
 

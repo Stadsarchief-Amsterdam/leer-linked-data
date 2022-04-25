@@ -34,13 +34,13 @@ Bij deze opdrachten maken we gebruik van SPARQL endpoints van
 - [DBPedia](https://dbpedia.org/sparql) 
 - [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
 
-Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen (ex070.rq), gebruik van + in pad (ex078.rq, zoeken in AAT/Getty)
+Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen/gebruik van + in pad
 
 ## Inhoud blok 3
 Bestudeer: pp 69-89
 Opdrachten bij DuCharme hoofdstuk 3, pp. 69-89
 
-Onderwerpen (onder voorbehoud): DISTINCT (ex094.rq) UNION (ex103.rq), FILTER (ex105.rq), AS (ex139.rq)
+Onderwerpen (onder voorbehoud): DISTINCT (ex094.rq), FILTER (ex105.rq), AS (ex139.rq)
 
 ## Inhoud blok 4
 Bestudeer: pp 89-108

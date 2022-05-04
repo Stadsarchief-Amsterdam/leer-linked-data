@@ -25,3 +25,4 @@ Bekijk het voorbeeld in het boek: ex061.rq.
 
 Antwoord: [yasgui-link](https://api.triplydb.com/s/iuEEG1T1c)
 
+Ga naar [Opdracht 06](opdracht06.md).

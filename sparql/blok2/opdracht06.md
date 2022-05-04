@@ -23,7 +23,7 @@ Bekijk het voorbeeld in het boek: ex079.rq.
 Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20skos%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT%20%3Flabel%20WHERE%20%7B%0A%20%20%3Fconcept%20skos%3AprefLabel%20%22boeken%22%40nl%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20skos%3Abroader%2Fskos%3AprefLabel%20%3Flabel%20.%0A%7D%20&endpoint=http%3A%2F%2Fvocab.getty.edu%2Fsparql&requestMethod=POST&tabTitle=Query%205&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
 
 ## 6.4
-Realiseer je dat een thesaurus een boom is met termen. Een term heeft een 'onderliggende' term gekoppeld met de property skos:narrower, maar die term heeft ook weer onderliggende termen die met dezelfde property (namelijk skos:narrower) zijn gekoppeld. Maak een query waarmee de labels van alle (!) narrower terms, dus ook van de terms die narrower zijn dan de narrower term etc.
+Realiseer je dat een thesaurus een boom is met termen. Een term heeft 'onderliggende' termen gekoppeld met de property skos:narrower, maar die termen hebben ook weer onderliggende termen die met dezelfde property (namelijk skos:narrower) zijn gekoppeld. Maak een query waarmee de labels van alle (!) narrower terms, dus ook van de terms die narrower zijn dan de narrower term etc.
 
 Bekijk het voorbeeld in het boek: ex078.rq
 
@@ -35,3 +35,5 @@ FILTER bij de laatste query op skos:prefLabels in het Nederlands.
 Bekijk het voorbeeld in het boek: ex049.rq
 
 Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20skos%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT%20%3Flabel%20WHERE%20%7B%0A%20%20%3Fconcept%20skos%3AprefLabel%20%22boeken%22%40nl%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20skos%3Anarrower%2B%2Fskos%3AprefLabel%20%3Flabel%20.%0A%20%20FILTER%20(lang(%3Flabel)%20%3D%20%22nl%22)%0A%7D%20&endpoint=http%3A%2F%2Fvocab.getty.edu%2Fsparql&requestMethod=POST&tabTitle=Query%205&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
+
+Einde blok 2

@@ -33,18 +33,20 @@ Bij deze opdrachten maken we gebruik van SPARQL endpoints van
 - [Koninklijke Bibliotheek](http://data.bibliotheken.nl/sparql) (Den Haag)
 - [DBPedia](https://dbpedia.org/sparql) 
 - [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
+- [Getty Institute](http://vocab.getty.edu/sparql) (Los Angeles, CA (USA))
 
 Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen/gebruik van + in pad
 
 ## Inhoud blok 3
 Bestudeer: pp 69-89
 Opdrachten bij DuCharme hoofdstuk 3, pp. 69-89
+- [ALEGORIA project](http://data.alegoria-project.fr/sparql/) (Frankrijk)
 
-Onderwerpen (onder voorbehoud): DISTINCT (ex094.rq), FILTER (ex105.rq), AS (ex139.rq)
+Onderwerpen (onder voorbehoud): DISTINCT, FILTER
 
 ## Inhoud blok 4
 Bestudeer: pp 89-108
 Opdrachten bij DuCharme hoofdstuk 3, pp. 89-108
 
-Onderwerpen (onder voorbehoud): ORDER BY (ex146.rq), COUNT (ex162.rq), SERVICE (ex172.rq)
+Onderwerpen (onder voorbehoud): ORDER BY (ex146.rq), COUNT (ex162.rq), AS (ex139.rq)
 

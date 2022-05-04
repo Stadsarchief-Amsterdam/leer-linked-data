@@ -24,7 +24,7 @@ Bij deze opdrachten maken we gebruik van SPARQL endpoints van
 - [Bibliotheque National de France](https://data.bnf.fr/sparql) (Parijs)
 - [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
 
-Onderwerpen: basisquery, FILTER/REGEX, OPTIONAL
+Onderwerpen: basisquery, FILTER/REGEX, OPTIONAL, Schema.org, Dublin Core.
 
 ## Inhoud Blok 2
 Bestudeer: pp. 47-69
@@ -35,14 +35,14 @@ Bij deze opdrachten maken we gebruik van SPARQL endpoints van
 - [Kungliga Biblioteket](https://libris.kb.se/sparql) (Stockholm)
 - [Getty Institute](http://vocab.getty.edu/sparql) (Los Angeles, CA (USA))
 
-Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen/gebruik van + in pad
+Onderwerpen: turtle-syntax/labels, OPTIONAL, pad door gebruik van variabelen/gebruik van + in pad, SKOS
 
 ## Inhoud blok 3
 Bestudeer: pp 69-89
 Opdrachten bij DuCharme hoofdstuk 3, pp. 69-89
 - [ALEGORIA project](http://data.alegoria-project.fr/sparql/) (Frankrijk)
 
-Onderwerpen (onder voorbehoud): DISTINCT, FILTER
+Onderwerpen: DISTINCT, FILTER, RiC-O
 
 ## Inhoud blok 4
 Bestudeer: pp 89-108

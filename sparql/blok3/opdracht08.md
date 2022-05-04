@@ -14,7 +14,7 @@ Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20rdf%3A%20%3Chttp
 ## 8.3
 Nu gaan we vroege luchtfoto's opvragen, dat wil zeggen, die zijn gemaakt voor 1920.
 
-Dit kun je doen door een FILTER te gebruiken. Dat hebben we eerder gedaan met een REGEX en met de taal. Wat je doet is filteren op rico:Record's die een datum hebben die kleiner is dan "1920".
+Dit kun je doen door een FILTER te gebruiken. Dat hebben we eerder gedaan met een REGEX en met de taal. Wat je doet is filteren op rico:Record's die een rico:creationDate hebben die kleiner is dan "1920".
 
 Bekijk het voorbeeld in het boek: ex105.rq.
 

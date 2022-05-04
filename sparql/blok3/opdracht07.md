@@ -1,7 +1,7 @@
 # Opdracht 7
 In Frankrijk is een samenwerkingsproject geweest met de naam ALEGORIA, waarin (metadata over) foto's vanuit de lucht zijn opgenomen, afkomstig uit verschillende collecties. En de metadata is gemodelleerd in ... RiC-O !! De metadata is beschikbaar via dit SPARQL-endpoint: http://data.alegoria-project.fr/sparql/. De foto's zelf zijn helaas achter een wachtwoord verstopt.
 
-Voor nu niet nodig, maar als je je een keer in een toepassing van RiC-O wilt verdiepen, is hier meer informatie:
+Voor nu niet nodig, maar als je je een keer in deze toepassing van RiC-O wilt verdiepen, is hier meer informatie:
 * Over het project: https://www.alegoria-project.fr/. (Engels)
 * Over hoe de metadata in RiC-O beschikbaar is: https://www.alegoria-project.fr/sites/default/files/3.pres_PubMetadataLOD-FClavaud-PCharbonnier-NAbadie.pdf (Frans)
 

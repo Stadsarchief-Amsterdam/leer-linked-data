@@ -11,12 +11,12 @@ We gaan de data als echte archivarissen van boven naar beneden benaderen. Het 'd
 Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rico%3A%20%3Chttps%3A%2F%2Fwww.ica.org%2Fstandards%2FRiC%2Fontology%23%3E%0A%0ASELECT%20%3Frs%20WHERE%20%7B%0A%3Frs%20rdf%3Atype%20rico%3ARecordSet%20%3B%0A%20%20rico%3AhasRecordSetType%20%3Chttps%3A%2F%2Fwww.ica.org%2Fstandards%2FRiC%2Fvocabularies%2FrecordSetTypes%23Fonds%3E%20.%0A%7D%0A&endpoint=http%3A%2F%2Fdata.alegoria-project.fr%2Fsparql%2F&requestMethod=POST&tabTitle=Query&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
 
 ## 7.2
-Een rico:RecordSet kan rico:RecordSet's bevatten en deze bevatten misschien ook wel weer rico:RecordSet's. Geef een overzicht van alle rico:RecordSet's in het endpoint met hun rico:RecordSetType (gekoppeld met rico:hasRecordSetType).
+Behalve het ric-rst:Fonds zijn er nog meer soorten rico:RecordSet's. Een rico:RecordSet kan immers zelf ook rico:RecordSet's bevatten en deze bevatten zelf misschien ook wel weer rico:RecordSet's. Geef een overzicht van alle rico:RecordSet's in het endpoint met het gekoppelde rico:RecordSetType (gekoppeld met rico:hasRecordSetType).
 
 Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rico%3A%20%3Chttps%3A%2F%2Fwww.ica.org%2Fstandards%2FRiC%2Fontology%23%3E%0A%0ASELECT%20%3Frs%20%3Frst%20WHERE%20%7B%0A%3Frs%20rdf%3Atype%20rico%3ARecordSet%20%3B%0A%20%20rico%3AhasRecordSetType%20%3Frst%20.%0A%7D%0A&endpoint=http%3A%2F%2Fdata.alegoria-project.fr%2Fsparql%2F&requestMethod=POST&tabTitle=Query&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
 
 ## 7.3
-Geef een overzicht van de verschillende rico:RecordSetTypes die zijn gedefinieerd. Gebruik DISTINCT.
+Geef een overzicht van de verschillende rico:RecordSetTypes die zijn gebruikt in het endpoint. Gebruik DISTINCT.
 
 Bekijk het voorbeeld in het boek: ex094.rq.
 

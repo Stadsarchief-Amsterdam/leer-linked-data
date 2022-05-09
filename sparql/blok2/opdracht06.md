@@ -18,7 +18,7 @@ Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20skos%3A%20%3Chtt
 ## 6.3
 Vraag de broader term op zonder de tussenliggende URI te hoeven opvragen.
 
-Bekijk het voorbeeld in het boek: ex079.rq.
+Bekijk het voorbeeld in het boek: ex082.rq.
 
 Antwoord: [yasgui-link](http://yasgui.triply.cc/#query=PREFIX%20skos%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0A%0ASELECT%20%3Flabel%20WHERE%20%7B%0A%20%20%3Fconcept%20skos%3AprefLabel%20%22boeken%22%40nl%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20skos%3Abroader%2Fskos%3AprefLabel%20%3Flabel%20.%0A%7D%20&endpoint=http%3A%2F%2Fvocab.getty.edu%2Fsparql.json&requestMethod=POST&tabTitle=Query%205&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
 

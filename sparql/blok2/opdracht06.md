@@ -1,5 +1,5 @@
 # Opdracht 6
-Voor deze opdracht maken we gebruik van het endpoint van het Getty Institute (http://vocab.getty.edu/sparql), waarin onder meer de Art and Architecture Thesaurus (AAT) is opgenomen. De AAT maakt gebruik van Simple Knowledge Organisation Standard. In SKOS (PREFIX skos: <http://www.w3.org/2004/02/skos/core#>) geeft het Getty aan hoe concepten zich tot elkaar verhouden. Dit sluit aan bij de terminologie die we kennen van thesauri. Zo zijn er van een concept "broader terms" en "narrower terms".
+Voor deze opdracht maken we gebruik van het endpoint van het Getty Institute (http://vocab.getty.edu/sparql.json), waarin onder meer de Art and Architecture Thesaurus (AAT) is opgenomen. De AAT maakt gebruik van Simple Knowledge Organisation Standard. In SKOS (PREFIX skos: <http://www.w3.org/2004/02/skos/core#>) geeft het Getty aan hoe concepten zich tot elkaar verhouden. Dit sluit aan bij de terminologie die we kennen van thesauri. Zo zijn er van een concept "broader terms" en "narrower terms".
 
 ## 6.1
 Zoek de AAT-uri voor het concept dat in het Nederlands wordt aangeduid met "boeken"@nl als skos:prefLabel.

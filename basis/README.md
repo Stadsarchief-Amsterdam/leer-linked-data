@@ -27,7 +27,7 @@ Setup -> Repositories -> Create New Repository
 * [Les 09: Een query met een FILTER](blok1/les09.md)
 * [Les 10: Een query met een patroon dat OPTIONAL is](blok1/les10.md)
 
-Meer SPARQL leren? [SPARQL oefeningen](../meer-sparql-oefeningen/README.md)
+Meer SPARQL leren? [SPARQL oefeningen](../sparql/README.md)
 
 ## Blok 2: Datastructuren in OWL en SHACL
 

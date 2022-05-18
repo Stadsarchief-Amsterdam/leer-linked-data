@@ -48,5 +48,7 @@ Onderwerpen: DISTINCT, FILTER, RiC-O
 Bestudeer: pp 89-108
 Opdrachten bij DuCharme hoofdstuk 3, pp. 89-108
 
-Onderwerpen (onder voorbehoud): ORDER BY (ex146.rq), COUNT (ex162.rq), AS (ex139.rq)
+- [Japans endpoint](https://mediag.bunka.go.jp/sparql) (Japan)
+
+Onderwerpen: COUNT, AS, ORDER BY
 

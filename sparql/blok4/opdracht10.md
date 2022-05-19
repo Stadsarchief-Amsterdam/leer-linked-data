@@ -23,7 +23,8 @@ Antwoord: [yasgui-link](https://yasgui.triply.cc/?query=PREFIX%20rdf%3A%20%3Chtt
 ## 10.4
 Echt overzicht heb je nog niet echt. Je zou het resultaat kunnen ordenen zodat de meest gebruikte property bovenaan staat.
 
-Bekijk het voorbeeld in het boek: ex146.rq
+Bekijk het voorbeeld in het boek: ex148.rq
 
 Antwoord: [yasgui-link](https://yasgui.triply.cc/?query=PREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT%20*%20WHERE%20%7B%0A%20%20%3Fsub%20%3Fpred%20%3Fobj%20.%0A%7D%20%0ALIMIT%2010&endpoint=http%3A%2F%2Fldf.fi%2Fmufi%2Fsparql#query=SELECT%20%3Fpred%20(COUNT(%3Fpred)%20AS%20%3FpredCount)%20WHERE%20%7B%0A%20%20%3Fsub%20%3Fpred%20%3Fobj%20.%0A%7D%20%0AGROUP%20BY%20%3Fpred%0AORDER%20BY%20DESC(%3FpredCount)&endpoint=https%3A%2F%2Fmediag.bunka.go.jp%2Fsparql&requestMethod=POST&tabTitle=Query%201&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=table)
 
+Ga naar [Opdracht 11](opdracht11.md).

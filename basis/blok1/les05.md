@@ -14,31 +14,31 @@ Hieronder is een nog completere beschrijving van een archief. Loop het even rust
 	rico:hasRecordSetType ric-rst:Fonds ;
     rico:hasAccumulator <https://id.archief.amsterdam/5> ;
     rico:hasOrHadIdentifier [
-        a rico:Identifier ;
+        rdf:type rico:Identifier ;
         rico:hasIdentifierType <https://id.archief.amsterdam/6> ; 
         rico:textualValue "395"
     ] ;
     rico:hasOrHadTitle [
-        a rico:Title ;
+        rdf:type rico:Title ;
         rico:textualValue "Archief van Een Of Ander Instituut"
     ] ;
     rico:isAssociatedWithDate [
-        a rico:DateRange ;
+        rdf:type rico:DateRange ;
         rico:expressedDate "1823 - 1972" ;
         rico:hasBeginningDate [
-            a rico:SingleDate ;
+            rdf:type rico:SingleDate ;
             rico:normalizedDateValue "1823"^^xsd:gYear
         ] ;
         rico:hasEndDate [
-            a rico:SingleDate ;
+            rdf:type rico:SingleDate ;
             rico:normalizedDateValue "1972"^^xsd:gYear
         ]
     ] ;
     rico:isOrWasDescribedBy [
-        a rico:Record ;
+        rdf:type rico:Record ;
         rico:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> ;
         rico:hasOrHadTitle [
-            a rico:Title ;
+            rdf:type rico:Title ;
             rico:textualValue "Inventaris van het Archief van Een Of Ander Instituut"
         ] ;
         rico:hasPublisher <https://id.archief.amsterdam/7> ;
@@ -46,15 +46,15 @@ Hieronder is een nog completere beschrijving van een archief. Loop het even rust
     rico:scopeAndContent "blabla" .
 
 <https://id.archief.amsterdam/5>
-	a rico:CorporateBody ;
+	rdf:type rico:CorporateBody ;
 	rdfs:label "Een Of Ander Instituut" .
 
 <https://id.archief.amsterdam/6>
-	a rico:IdentifierType ;
+	rdf:type rico:IdentifierType ;
 	rdfs:label "Toegangsnummer" .
 
 <https://id.archief.amsterdam/7>
-	a rico:CorporateBody ;
+	rdf:type rico:CorporateBody ;
 	rdfs:label "Stadsarchief Amsterdam" .
 
 

@@ -1,16 +1,19 @@
-# Les 9: Een query met een FILTER
+# Les 10: Een query met een patroon dat OPTIONAL is
+Stel je wilt wel alle archieven en alleen de begindatum van vorming als deze ook in de graaf is opgenomen. Als hij niet in de graaf is opgenomen, mag de waarde in kolom wegblijven.
 
-In de volgende query kun je filteren op een datum. Wat zou deze query moeten opleveren?
+Daarvoor gebruik je het woord OPTIONAL.
 
 ```
 SELECT * WHERE {
-     ?rs 	rico:hasRecordSetType ?rst ;
-     		rico:isAssociatedWithDate/rico:hasBeginningDate/rico:normalizedDateValue ?begindate .
-     FILTER (?begindate < '1600'^^xsd:gYear)
+     ?rs    rico:hasRecordSetType ?rst .
+     OPTIONAL {
+        ?rs	rico:isAssociatedWithDate/rico:hasBeginningDate/rico:normalizedDateValue ?begindate .
+     }
 }
 
 ```
 
-Knip en plak deze query in GraphDB -> SPARQL. Als het goed is geeft de query nu geen enkel resultaat.
+Knip en plak deze query in GraphDB -> SPARQL. Deze query geeft drie kolommen, waarvan de ?begindate op twee plaatsen leeg is.
 
-Ga naar [Les 10: Een query met een patroon dat OPTIONAL is](les10.md)
+Ga naar [Les 10: Een query met een FILTER](les10.md)
+

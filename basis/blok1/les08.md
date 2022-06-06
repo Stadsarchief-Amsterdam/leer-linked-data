@@ -12,4 +12,4 @@ SELECT * WHERE {
 
 Knip en plak deze query in GraphDB -> SPARQL. Als het goed is krijg je nu nog maar een archief. Bij dat andere archief is immers geen datum in de graaf opgenomen, dus dat voldoet niet aan het patroon waarom je in deze SPARQL query vraagt.
 
-Ga naar [Les 09: Een query met een FILTER](les09.md)
+Ga naar [Les 09: Een query met een patroon dat OPTIONAL is](les09.md)

@@ -1,4 +1,6 @@
 # Opdracht 0
+_In deze opdracht leer je hoe YASGUI werkt._
+
 SPARQL queries kun je uitvoeren via een omgeving die heet: YASGUI (Yet Another SPARQL Graphical User Interface). Deze open source gebruikersinterface is gemaakt, wordt onderhouden en gehost door Triply. 
 
 Om te leren hoe deze omgeving werkt, volg [deze link](https://api.triplydb.com/s/fTiQjMYeP).
